@@ -6,6 +6,7 @@ class School
   end
   
   def add_student(name, x)
-    @roster[:"#{x}"] = "#{name}"
+    @roster[x] = []
+    
   end
 end
