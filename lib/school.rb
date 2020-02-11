@@ -9,4 +9,8 @@ class School
     @roster[x] ||= []
     @roster[x] << name
   end
+  
+  def grade
+    
+  end
 end
