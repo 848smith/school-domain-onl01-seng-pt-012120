@@ -15,10 +15,11 @@ class School
   end
   
   def sort
-    @roster.collect do |x, name|
-      name.sort
+    new_roster = {}
+    @roster.each do |x, name|
+      new_roster[x] << name.sort
     end
-    @roster
+    new_roster
   end
 end
 
