@@ -17,7 +17,7 @@ class School
   def sort
     new_roster = {}
     @roster.each do |x, name|
-      new_roster[x] << name.sort
+      new_roster[x] = name.sort
     end
     new_roster
   end
