@@ -10,7 +10,7 @@ class School
     @roster[x] << name
   end
   
-  def grade
+  def grade(x)
     
   end
 end
